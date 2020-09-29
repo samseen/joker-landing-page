@@ -25,4 +25,9 @@ header {
     min-height: 100vh;
     padding: 0 100px;
     background: url('assets/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
