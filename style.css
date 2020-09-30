@@ -88,3 +88,13 @@ header .toggle img {
     margin-right: 10px;
     max-width: 50px;
 }
+
+.sci {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
