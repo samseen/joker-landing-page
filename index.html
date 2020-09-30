@@ -15,7 +15,7 @@
         <div class="content">
             <h2>Put on a <span>Happy</span> face</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, numquam. Tenetur, nemo aliquid aliquam quo quos beatae cum amet ullam, aut commodi libero. Vitae, quibusdam a debitis quod placeat, hic praesentium tenetur eveniet, animi unde laborum.</p>
-            <a href="#" class="play"><img src="assets/play.png" alt="">Watch Trailer</a>
+            <a href="#" class="play" onclick="toggle();"><img src="assets/play.png" alt="">Watch Trailer</a>
             <div class="slide"></div>
             <ul class="sci">
                 <li><a href="#"><img src="assets/facebook.png" alt=""></a></li>
@@ -28,5 +28,11 @@
         <video src="assets/trailer.mp4" controls="true"></video>
         <img src="assets/close.png" alt="" class="close">
     </div>
+    <script>
+        function toggle() {
+            var trailer = document.querySelector('.trailer');
+            trailer.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>

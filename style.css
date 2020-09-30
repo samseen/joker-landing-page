@@ -146,8 +146,14 @@ header .toggle img {
     display: flex;
     justify-content: center;
     align-items: center;
+    visibility: hidden;
+    opacity: 0;
 }
 
+.trailer.active {
+    visibility: visible;
+    opacity: 1;
+}
 .trailer video {
     max-width: 900px;
     outline: none;
