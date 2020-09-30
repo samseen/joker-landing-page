@@ -94,7 +94,21 @@ header .toggle img {
     top: 50%;
     transform: translateY(-50%);
     right: 20px;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li a {
+    text-decoration: none;
+}
+
+.sci li a img {
+    filter: invert(1);
+    transform: scale(0.6);
 }
