@@ -152,3 +152,12 @@ header .toggle img {
     max-width: 900px;
     outline: none;
 }
+
+.trailer .close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    filter: invert(1);
+    max-width: 32px;
+}
